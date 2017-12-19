@@ -1,0 +1,7 @@
+spring:
+    application: 
+      name: cloud-producer
+eureka: 
+ client: 
+    serviceUrl: 
+      defaultZone: http://sl:8761/eureka/,http://sw:8762/eureka/
